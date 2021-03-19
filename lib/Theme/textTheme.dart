@@ -27,3 +27,13 @@ final TextTheme customTextTheme = TextTheme(
   overline: GoogleFonts.roboto(
       fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
 );
+
+final AppBarTheme customAppBarTheme = AppBarTheme(
+  titleTextStyle: TextStyle(
+    color: Colors.white,
+  ),
+);
+
+final TextButtonThemeData customTextButtonTheme = TextButtonThemeData(
+    style: TextButton.styleFrom(primary: Colors.white),
+);
