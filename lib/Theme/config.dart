@@ -12,3 +12,6 @@ AppBarTheme appBarTheme() {
 TextButtonThemeData textButtonTheme() {
   return customTextButtonTheme;
 }
+ColorScheme colorScheme() {
+  return lightThemeData;
+}

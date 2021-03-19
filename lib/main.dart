@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         textTheme: textTheme(),
         appBarTheme: appBarTheme(),
         textButtonTheme: textButtonTheme(),
+        colorScheme: colorScheme(),
       ),
       home: MyHomePage(),
     );
@@ -53,8 +54,8 @@ class MyHomePage extends StatelessWidget {
               begin: Alignment(0.0, 0.15),
               end: Alignment.bottomCenter,
               colors: <Color>[
-              Color.fromRGBO(255,90,90,1),
-              Color.fromRGBO(255,144,114,1),
+              Color.fromRGBO(255, 90, 90, 1),
+              Color.fromRGBO(255, 144, 114, 1),
             ])
           ),
         ),

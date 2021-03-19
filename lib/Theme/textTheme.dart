@@ -31,9 +31,18 @@ final TextTheme customTextTheme = TextTheme(
 final AppBarTheme customAppBarTheme = AppBarTheme(
   titleTextStyle: TextStyle(
     color: Colors.white,
+    fontSize: 21.0,
   ),
+  elevation: 0,
 );
 
 final TextButtonThemeData customTextButtonTheme = TextButtonThemeData(
-    style: TextButton.styleFrom(primary: Colors.white),
+    style: TextButton.styleFrom(
+      primary: Colors.white,
+      textStyle: TextStyle(fontSize: 16)
+    ),
 );
+
+final ColorScheme lightThemeData =
+  ColorScheme.light(primary: Colors.pink[600], primaryVariant: Colors.pink[400], secondary: Colors.yellow[200], secondaryVariant: Colors.yellow[200], surface: Colors.green, background: Colors.lightBlue[100], error: Colors.pink)
+;
